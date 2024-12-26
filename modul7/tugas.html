@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>TUGAS</title>
+    <style>
+        nav {
+            background-color: #4f4f4f;
+            display: inline-block;
+            width: 100%;
+        }
+        nav ul {
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+        }
+        nav ul li {
+            float: left;
+            background-color: #4f4f4f;
+            gap: 1px;
+        }
+        nav a{
+            display: block;
+            padding: 0 10px;
+            color: #fff;
+            line-height: 60px;
+            font-size: 12px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover{
+            background-color: black;
+        }
+        nav ul ul {
+            display: none;
+            position: absolute;
+            top: 60px;
+        }
+        nav ul li:hover > ul {
+            display: block;
+        }
+        nav ul ul li {
+            width: 170;
+            float: none;
+            display: list-item;
+            position: relative;
+        }
+        nav ul ul ul li {
+            position: relative;
+            top: -50px;
+            left: 170px;
+        }
+        h1 {
+          color: white;
+        }
+        .gambar {
+          background-color: #f1f1f1;
+          padding: 10px;
+        }
+        .gambar img {
+          width: 300px;
+          height: 130px;
+        }
+        .header-logo {
+          display: flex;
+          gap: 600px;
+        }
+    </style>
+</head>
+<body bgcolor="black">
+    <header style="display: flex; 
+    align-items: center;
+    gap: 10px;
+    padding: 5px;">
+    <img src="bgksng.png" alt="" width="150px">
+    <div class="header-logo">
+      <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">HOTEL L'AVERS</h1>
+      <img src="png.jpeg" alt="Gambar Hotel"
+      width="300px" height="70px">   
+    </div>
+</header>
+<nav style="padding: 0px;">
+    <ul>
+      <li><a href="">HOME</a></li>
+      <li><a href="">KAMAR</a></li>
+      <li><a href="">FASILITAS</a>
+         <ul>
+                <li><a href="">PETUALANG ALAM</a></li>
+                <li><a href="">KOLAM RENANG</a>
+         <ul>
+                <li><a href="">SUMBER AIR PANAS</a></li>
+                <li><a href="">KOLAM ANAK & DEWASA</a>
+         <ul>
+                <li><a href="">REGULER</a></li>
+                <li><a href="">PREMIUM</a></li>
+          </ul>
+        </li>
+    </ul>
+</li>
+          <li><a href="">PUSAT KEBUGARAN</a></li>
+          <li><a href="">RUANG RAPAT</a></li>
+    </ul>
+</li>
+         <li><a href="">PESAN SEKARANG</a></li>
+    </ul>
+</nav>
+<main style="flex: 1; display: flex; gap: 50px; padding: 8px">
+  <div class="videos" style="display: flex; flex-direction: column; gap: 10px; background-color: none; padding: 1%; height: 1%;">
+    <iframe
+      src="https://www.youtube.com/embed/ldtQgtaZu0c?si=Wk5x2p2lPgcIqCi3" 
+      frameborder="0"
+      allowfullscreen
+      width="230px"
+      height="110px">
+    </iframe>
+    <iframe
+      src="https://www.youtube.com/embed/H1CIBqDeWQ0"
+      frameborder="0"
+      allowfullscreen
+      width="230px"
+      height="110px">
+    </iframe>
+    <iframe
+      src="https://www.youtube.com/embed/H1CIBqDeWQ0"
+      frameborder="0"
+      allowfullscreen
+      width="230px"
+      height="110px">
+    </iframe>
+  </div>
+  <div  class="gambar">
+    <table>
+      <tr>
+        <td>
+          <img
+            src="Kamar 1.jpg"
+            alt="">
+        </td>
+        <td>
+          <img src="Kamar 2.webp"
+            alt="">
+        </td>
+        <td>
+          <img
+            src="Kamar 3.jpg"
+            alt="">
+        </td>
+        <tr>
+        <td>
+          <img
+            src="Kamar 4.jpeg"
+            alt="">
+        </td>
+        <td>
+          <img
+            src="Kamar 5.webp"
+            alt="">
+        </td>
+        <td>
+          <img
+            src="Kamar 6.jpg"
+            alt="">
+        </td>
+      </tr>
+      <tr>
+        <td>
+            <img
+            src="Kamar 7.jpeg"
+            alt="">
+        </td>
+        <td>
+          <img
+            src="Kamar 8.webp"
+            alt="">
+        </td>
+        <td>
+          <img
+            src="Kamar 9.webp"
+            alt="">
+        </td>
+      </tr>
+    </table>
+  </div>
+</main>
+<footer style="flex: 0 0 5%;
+background-color: #4f4f4f;
+text-align: center;
+padding: 1px; margin: 10px;">
+<p style="color: #f1f1f1;">@CopyRight Roy Wijaya 2024</p>
+</footer>
+</body>
+</html>
